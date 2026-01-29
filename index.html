@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html cheatsheet</title>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="blog.html">Go to Blog</a>
+        <div>
+        <h1>heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>heading 6</h6>
+        <p>Lorem ipsum dolor, 
+            sit amet consectetur <a href="https://www.google.com" target="_blank" >elit</a>. Tenetur, neque, eum fugiat in natus iste 
+            culpa error dignissimos quas excepturi dolorem, veritatis voluptatum dolorum aliquid quo. 
+            <strong>Harum repudiandae esse ipsa!</strong></p>
+        </div>
+        <div>
+            <ol>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+            </ol>
+            <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+            </ul>
+            <table >
+                <thead>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>age</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sheshu Nalla</td>
+                        <td>Sheshu@gmail.com</td>
+                        <td>23</td>
+                    </tr>
+                </tbody>
+                    <tr>
+                        <td>Sheshu</td>
+                        <td>Sheshu002@gmail.com</td>
+                        <td>25</td>
+                    </tr>
+            </table>
+            <br>
+            <hr>
+            <br>
+            <form action="process.py" method="POST">
+                <div>
+                    <label>First Name</label>
+                    <input type="text" name="fisrtName" placeholder="Enter Fisrt Name">
+                </div>
+                <br>
+                <div>
+                    <label>Last Name</label>
+                    <input type="email" name="lastName" placeholder="Enter Last Name">
+                </div>
+                <br>
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Enter Your Email">
+                </div>
+                <br>
+                <div>
+                    <label>Message</label>
+                    <textarea rows="5" cols="20"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label>Gender</label>
+                    <select>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Age:</label>
+                    <input type="number" name="age">
+                </div>
+                <br>
+                <div>
+                    <label>Birthday:</label>
+                    <input type="date" name="Birthday">
+                </div>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+            <hr>
+            <a href="/images/1887.jpg">
+                <img src="/images/1887.jpg" style="height: 150px;" alt="Image">
+            </a>
+            <br>
+            <button>Click Me</button>
+        </div>
+        <div style="margin-top: 500px;"></div>
+    </body>
+</html>
